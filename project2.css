@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	display: flex;
+	background-color:#333333;
+	padding: 13px 13px;
+	position: fixed;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 50px;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-image: url(dark3.jpg);
+	height: 700px;
+	padding: 5px;
+}
+#first{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#333333;
+	padding: 5px;
+}
+#second{
+	padding: 9px;
+	background-color: red;
+	color: white;
+}
+#one{
+	height: 400px;
+	width: 900px;
+	border-radius: 10px;
+}
+#two{
+	height: 650px;
+	width: 1000px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+#third{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	padding-top: 110px;
+}
+#fourth{
+	padding: 7px;
+	background-color: blue;
+	color: white;
+}
+.fifth{
+	color: black;
+}
+.sixth{
+	color: black;
+	font-size: 20px;
+}
+#seventh{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(osun.jpg);
+	height: 500px;
+}
+img{
+	height: 250px;
+	width:400px;
+	border-radius:20px;
+}
+#eight{
+	display: grid;
+	grid-template-columns: 570px 570px;
+	justify-content: center;
+	margin-top: 120px;
+	height: 400px;
+}
+#nine{
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	background-color:#000000;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+footer{
+	background-color: #333333;
+	padding: 10px 10px;
+}
